@@ -616,7 +616,7 @@ html {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 20px 10px;
+  padding: 20px 10px !important;
 }
 
 .header__menu {
