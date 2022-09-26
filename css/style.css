@@ -146,6 +146,7 @@ h6 {
 
 html {
   scroll-behavior: smooth;
+  scroll-padding: 90px 0 0 0;
 }
 
 .lock {
@@ -1503,10 +1504,6 @@ html {
     padding: 40px 20px;
   }
 
-  .header__container {
-    padding: 18px 15px;
-  }
-
   .home__container {
     padding: 140px 20px 40px !important;
   }
@@ -1546,10 +1543,6 @@ html {
 @media (max-width: 767.98px) {
   [class*=__container] {
     max-width: none;
-  }
-
-  .header__container {
-    padding: 14px 20px;
   }
 
   .menu__list {
